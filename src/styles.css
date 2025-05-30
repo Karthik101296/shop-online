@@ -1,0 +1,115 @@
+.header {
+  background: linear-gradient(to bottom, #415a77, #778da9);
+  padding: 0 20px;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+}
+.logo-img {
+  width: 150px;
+  margin: 0 auto;
+}
+.nav-link {
+  color: #fff !important;
+  font-weight: 700 !important;
+}
+.footer {
+  background: #343a40;
+}
+
+.card:hover {
+  box-shadow: var(--bs-box-shadow) !important;
+}
+.card-img-top {
+  width: auto !important;
+  height: 150px;
+  margin: 10px auto 0;
+}
+.card-text {
+  max-height: 50px;
+  display: -webkit-box;
+  line-clamp: 1;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.card-prod-price {
+  color: #0f1111;
+  font-size: 28px;
+}
+.card-button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card-button .btn,
+.cart .btn-primary {
+  background: #415a77 !important;
+  color: #fff !important;
+}
+.card-button .btn:hover  {
+  background: #778da9 !important;
+}
+.category-pill {
+  background: transparent;
+  border: 2px solid #415a77;
+  border-radius: 25px;
+  padding: 5px 20px;
+  color: #37383d;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+}
+.category-pill:hover {
+  background: linear-gradient(to bottom, #415a77, #778da9);
+  color: #fff;
+}
+.cart-img {
+  width: 50px;
+}
+.cart-link {
+  text-decoration: none;
+  color: #2172bf;
+  font-weight: 600;
+}
+.cart-link:hover {
+  text-decoration: underline;
+  color: #486784;
+}
+.footer-links p {
+  margin-bottom: 0;
+}
+.footer-links p a {
+  color: #fff;
+  text-decoration: none;
+}
+.row.categories > * {
+  width: auto !important;
+  margin-bottom: 20px;
+}
+.form-check-input[type="radio"] {
+  cursor: pointer;
+  border: 2px solid #333;
+}
+@media (max-width: 767px) {
+  .mobile-disp {
+    display: block !important;
+  }
+  .mobile-disp ul {
+    width: 70px;
+    list-style-type: none;
+  }
+}
+@media (min-width: 768px) {
+  .mobile-disp {
+    display: none !important;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+  }
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+  }
+}
