@@ -5,7 +5,7 @@ export const Products = {
       name: "Polo T-Shirt",
       price: 399,
       description: "Men's Cotton Slim Fit Polo T-Shirt",
-      image: "../assets/images/tshirt-men1.jpg",
+      image: "tshirt-men1.jpg",
       alt: "Max Men's Cotton Slim Fit Polo T-Shirt",
     },
     {
@@ -13,7 +13,7 @@ export const Products = {
       name: "Polo T-Shirt",
       price: 459,
       description: "Women’s Cotton Polo T-Shirt",
-      image: "../assets/images/tshirt-women1.jpg",
+      image: "tshirt-women1.jpg",
       alt: "Lappen Fashion Women’s Cotton Polo T-Shirt | Half Sleeve with Collar | Regular Slim Fit Plain Solid Tshirts | Pure Cotton,...",
     },
     {
@@ -22,7 +22,7 @@ export const Products = {
       price: 1099,
       description:
         "Couple’s Cotton Regular T-Shirt | HH81 Men & Women T shirts |Round Neck T-Shirt| Regular Fit | Half Sleeves | Cotton | Couple Tshirts for Couple |Pack of 2|Couple T-Shirts",
-      image: "../assets/images/tshirt-couple.jpg",
+      image: "tshirt-couple.jpg",
       alt: "Hangout Hub HH81 Men & Women T shirts |Round Neck T-Shirt| Regular Fit | Half Sleeves | Cotton | Couple Tshirts for Couple...",
     },
     {
@@ -30,7 +30,7 @@ export const Products = {
       name: "Polo T-Shirt",
       price: 499,
       description: "Men's Solid Regular Fit T-Shirt",
-      image: "../assets/images/tshirt-men2.jpg",
+      image: "tshirt-men2.jpg",
       alt: "Max Men's Solid Regular Fit T-Shirt",
     },
     {
@@ -38,7 +38,7 @@ export const Products = {
       name: "Men's Sweatshirt",
       price: 899,
       description: "Men's Cotton Casual Sweatshirt",
-      image: "../assets/images/tshirt-fullMen.jpg",
+      image: "tshirt-fullMen.jpg",
       alt: "Max Men's Solid Regular Fit T-Shirt",
     },
   ],
@@ -49,7 +49,7 @@ export const Products = {
       price: 8396,
       description:
         "G-Shock Analog Digital Men's Watch (Black x Gold) GA-710GB-1A / GA-710GB-1ADR",
-      image: "../assets/images/smart-watch.jpg",
+      image: "smart-watch.jpg",
       alt: "Smart Watch",
     },
     {
@@ -58,7 +58,7 @@ export const Products = {
       price: 1399,
       description:
         "Boat Rockerz 450/450R, 15 HRS Battery, 40mm Drivers, Padded Ear Cushions, Integrated Controls, Dual Modes, Bluetooth Headphones, Wireless Headphone with Mic (Luscious Black)",
-      image: "../assets/images/boat-headphone.jpg",
+      image: "boat-headphone.jpg",
       alt: "Boat Headphone",
     },
     {
@@ -66,7 +66,7 @@ export const Products = {
       name: "iPhone 14",
       price: 64599,
       description: "Apple iPhone 14 (256 GB) - Midnight",
-      image: "../assets/images/iphone-14.jpg",
+      image: "iphone-14.jpg",
       alt: "Apple iPhone 14",
     },
   ],
@@ -77,7 +77,7 @@ export const Products = {
       price: 178,
       description:
         "How to beat procrastination, summon productivity & stop self sabotage ǀ Self-help book to increase productivity",
-      image: "../assets/images/getting-started.jpg",
+      image: "getting-started.jpg",
       alt: "The Science of Getting Started",
     },
     {
@@ -86,7 +86,7 @@ export const Products = {
       price: 599,
       description:
         "You might wonder how these web apps over internet are build from scratch. Here you're, take some easy steps to learn it. Dig into REACT.JS for a exciting developer experience!",
-      image: "../assets/images/react-js.jpg",
+      image: "react-js.jpg",
       alt: "React.js For Beginners",
     },
     {
@@ -95,7 +95,7 @@ export const Products = {
       price: 315,
       description:
         "Chetan Bhagat - Revolution Twenty20, Half Girlfriend, One Indian Girl",
-      image: "../assets/images/half-gf.jpg",
+      image: "half-gf.jpg",
       alt: "HALF GIRLFRIEND",
     },
     {
@@ -104,7 +104,7 @@ export const Products = {
       price: 315,
       description:
         "Special Ruchi 56 items Special recipes making explained detailed in kannada",
-      image: "../assets/images/recipe.jpg",
+      image: "recipe.jpg",
       alt: "56 Special recipes - Kannada",
     },
   ],
@@ -115,7 +115,7 @@ export const Products = {
       price: 1299,
       description:
         "Latest Stylish Fancy Pearl Choker Traditional Jewellery Set for Women | Temple Necklace Set | Festive Wedding Party Necklace | 22k Gold Plated | Just Like Original Gold Jewellery",
-      image: "../assets/images/jewel1.jpg",
+      image: "jewel1.jpg",
       alt: "Necklace Set",
     },
     {
@@ -124,7 +124,7 @@ export const Products = {
       price: 999,
       description:
         "5 Pcs Combo Latest Stylish Infinity Butterfly Pearl Necklace Jewellery Set for Women Pendant Necklace Gifts for Girls (15911np)",
-      image: "../assets/images/jewel2.jpg",
+      image: "jewel2.jpg",
       alt: "Pearl and Pendant Necklace",
     },
     {
@@ -133,7 +133,7 @@ export const Products = {
       price: 865,
       description:
         "925 Sterling Silver Butterfly Pendant Earring Chain Jewellery Set | Rhodium Plated, Swiss Zirconia | Gift for Women & Girls",
-      image: "../assets/images/jewel3.jpg",
+      image: "jewel3.jpg",
       alt: "Silver Butterfly Pendant Earring Chain Jewellery Set",
     },
   ],

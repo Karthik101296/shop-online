@@ -2,6 +2,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { removeFromCart } from "../redux/cartSlice";
 import { Link } from "react-router-dom";
 import EmptyCartImg from "../assets/images/empty-cart.gif";
+import imageMap from "../utils/imageMap";
 
 const Cart = () => {
   const cart = useSelector((state) => state.cart);
@@ -26,7 +27,7 @@ const Cart = () => {
                 className="list-group-item d-flex justify-content-between align-items-center">
                 <div className="col-md-4 justify-content-start align-items-center d-flex ">
                   <img
-                    src={item.image}
+                    src={imageMap[item.image]}
                     className="cart-img me-md-3"
                     alt={item.alt || item.name}
                   />{" "}
@@ -45,7 +46,7 @@ const Cart = () => {
           </ul>
           <div className="my-4">
             <h3>Add More items?</h3>
-            <Link to="/" className="cart-link">
+            <Link to="/shop-online" className="cart-link">
               Go to Home &gt;
             </Link>
           </div>

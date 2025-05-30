@@ -12,7 +12,7 @@ const Category = () => {
   return (
     <div className="container mt-4">
         <div className="text-start">
-            <Link className="cart-link " to="/"> <FaArrowLeft className="mx-1" />
+            <Link className="cart-link " to="/shop-online"> <FaArrowLeft className="mx-1" />
 Back to Home</Link>
         </div>
         

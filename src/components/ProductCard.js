@@ -1,6 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart, increment, decrement } from "../redux/cartSlice";
 import { Link } from "react-router-dom";
+import imageMap from "../utils/imageMap";
 
 const ProductCard = ({ product }) => {
   const dispatch = useDispatch();
@@ -12,7 +13,7 @@ const ProductCard = ({ product }) => {
     <div className="col-md-4 mb-4">
       <div className="card">
         <img
-          src={product.image}
+          src={imageMap[product.image]}
           className="card-img-top"
           alt={product.alt || product.name}
         />

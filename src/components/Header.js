@@ -9,14 +9,14 @@ function Header() {
   return (
     <div className="header">
       <nav className="container navbar navbar-expand-lg navbar-dark">
-        <Link className="navbar-brand" to="/">
+        <Link className="navbar-brand" to="/shop-online">
           <img className="logo-img" src={AppLogo} alt="E-commerce" />
         </Link>
 
         <div className="mobile-disp">
           <ul className="d-flex justify-content-between p-0 mb-0">
             <li className="nav-item">
-              <Link className="nav-link" to="/" title="Home">
+              <Link className="nav-link" to="/shop-online" title="Home">
                 <IoMdHome size={24} />
               </Link>
             </li>
@@ -38,7 +38,7 @@ function Header() {
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <Link className="nav-link" to="/" title="Home">
+              <Link className="nav-link" to="/shop-online" title="Home">
                 <IoMdHome size={24} />
               </Link>
             </li>
