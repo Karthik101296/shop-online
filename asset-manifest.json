@@ -1,17 +1,24 @@
 {
   "files": {
     "main.css": "/shop-online/static/css/main.0fb9a724.css",
-    "main.js": "/shop-online/static/js/main.a27bc71d.js",
+    "main.js": "/shop-online/static/js/main.59a9df24.js",
     "static/js/453.076d0c45.chunk.js": "/shop-online/static/js/453.076d0c45.chunk.js",
     "static/media/empty-cart.gif": "/shop-online/static/media/empty-cart.459c22ce539b0c34c3ce.gif",
+    "static/media/jewel1.jpg": "/shop-online/static/media/jewel1.1e7bcf81126677cdb9d9.jpg",
+    "static/media/smart-watch.jpg": "/shop-online/static/media/smart-watch.a5fdb2ba659d2dbd711d.jpg",
+    "static/media/tshirt-couple.jpg": "/shop-online/static/media/tshirt-couple.16a2e18545601a4abe83.jpg",
     "static/media/shop-online-logo.png": "/shop-online/static/media/shop-online-logo.d19d46a885ca88ae6854.png",
+    "static/media/jewel2.jpg": "/shop-online/static/media/jewel2.1297aed4a814ed254c48.jpg",
+    "static/media/recipe.jpg": "/shop-online/static/media/recipe.eadf5b0fb90da09e038c.jpg",
+    "static/media/getting-started.jpg": "/shop-online/static/media/getting-started.188e9b0fe48e60ac66e3.jpg",
+    "static/media/half-gf.jpg": "/shop-online/static/media/half-gf.f685df53cb7a334f3fed.jpg",
     "index.html": "/shop-online/index.html",
     "main.0fb9a724.css.map": "/shop-online/static/css/main.0fb9a724.css.map",
-    "main.a27bc71d.js.map": "/shop-online/static/js/main.a27bc71d.js.map",
+    "main.59a9df24.js.map": "/shop-online/static/js/main.59a9df24.js.map",
     "453.076d0c45.chunk.js.map": "/shop-online/static/js/453.076d0c45.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0fb9a724.css",
-    "static/js/main.a27bc71d.js"
+    "static/js/main.59a9df24.js"
   ]
 }
